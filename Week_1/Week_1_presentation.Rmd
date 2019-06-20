@@ -1,5 +1,5 @@
 ---
-title: "Week_1"
+title: "Week_1 R for Reproducible Scientific Analysis"
 author: "James Johnson"
 date: "June 20, 2019"
 output: ioslides_presentation
@@ -9,24 +9,29 @@ output: ioslides_presentation
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-## R Markdown
 
-This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+## Welcome!
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+- If you haven't already - please sign up for Rstudio cloud!
+- This is my first time running so it will not be without hiccups.
+- [This article summarizes the learning philosophy we'll be using](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006023)
 
-## Slide with Bullets
+## What are we here to do?
 
-- Bullet 1
-- Bullet 2
-- Bullet 3
+- We will be learning a workflow in R
+- this will include learning about the R language, using R to explore and visualize a dataset and getting acquainted with R's modern workflow
 
-## Slide with R Output
+## What won't we cover?
 
-```{r cars, echo = TRUE}
-summary(cars)
-```
+- This will *NOT* be an extensive treatment of statistics
 
+## What should you be doing?
+
+- Try to establish your own learning goals:
+    - I would suggest trying to identify something you already do in excel or SAS, and trying to do the same thing in R
+    - Expect this be to slower than your normal workflow at first! You are learning a language.
+
+##
 ## Slide with Plot
 
 ```{r pressure}
